@@ -24,6 +24,8 @@ sensor.onreading = () => {
 }
 
 sensor.onerror = event => console.log(event.error.name, event.error.message);
+
+
     //simulation
 
     //Emit message
